@@ -7,12 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "dependencies": {
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "lint-staged": "^15.2.7"
   },
   "packageManager": "pnpm@8.11.0+sha512.9df87c16c98db27b4e051d787e67f2207ec47e809ccb07bf7b5ec4acdcd1613355839a38d0b900144923d6a7057700b74d2a0ccb1558beb241647a1206a9a7ab"
 }
