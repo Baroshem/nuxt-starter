@@ -15,7 +15,10 @@
     "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "nuxt": "^3.13.2",
+    "nuxt-security": "^2.0.0",
     "vue": "latest",
     "vue-router": "latest"
   },
