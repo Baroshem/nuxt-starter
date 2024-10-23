@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "test": "vitest run --silent",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "lhci": "lhci autorun",
+    "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "dependencies": {
     "nuxt": "^3.13.2",
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.11.1",
+    "@lhci/cli": "^0.14.0",
     "eslint": "^9.11.1",
     "playwright-core": "^1.47.2",
     "@nuxt/test-utils": "^3.14.2",
