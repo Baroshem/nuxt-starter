@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest run --silent",
+    "test:watch": "vitest watch"
   },
   "dependencies": {
     "nuxt": "^3.13.2",
@@ -19,7 +21,12 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.11.1",
     "eslint": "^9.11.1",
-    "lint-staged": "^15.2.7"
+    "playwright-core": "^1.47.2",
+    "@nuxt/test-utils": "^3.14.2",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^15.7.4",
+    "lint-staged": "^15.2.7",
+    "vitest": "^2.1.1"
   },
   "packageManager": "pnpm@8.11.0+sha512.9df87c16c98db27b4e051d787e67f2207ec47e809ccb07bf7b5ec4acdcd1613355839a38d0b900144923d6a7057700b74d2a0ccb1558beb241647a1206a9a7ab"
 }
