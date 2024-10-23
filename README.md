@@ -1,4 +1,13 @@
-# Nuxt Minimal Starter
+# Nuxt Starter
+
+This is a Nuxt Starter with several goodies that I have found really useful when I recently had to build several small applications where I was using these additions:
+
+* Testing with Unit & E2E Setup
+* Static code improvements with Linter/Prettier/Editorconfig
+* Dockerfile for containerization
+* Lighthouse CI for continous Software Quality audits (Performance, SEO, A11Y, Best Practices)
+* Useful modules like Image, TailwindCSS, Security
+* GitHub Actions Continous Integration script
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
