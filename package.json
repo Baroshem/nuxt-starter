@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-starter",
   "private": true,
   "type": "module",
   "scripts": {
