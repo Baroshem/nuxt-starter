@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      site: {
+        url: 'https://your-site-url.com', // replace with your actual site URL
+      },
+    },
+  },
   app: {
     head: {
       title: 'Nuxt Starter',
