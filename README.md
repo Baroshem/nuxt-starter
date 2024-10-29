@@ -6,7 +6,7 @@ This is a Nuxt Starter with several goodies that I have found really useful when
 * Static code improvements with Linter/Prettier/Editorconfig
 * Dockerfile for containerization
 * Lighthouse CI for continous Software Quality audits (Performance, SEO, A11Y, Best Practices)
-* Useful modules like Image, TailwindCSS, Security
+* Useful modules like Image, TailwindCSS, Security, SEO, Fonts
 * GitHub Actions Continous Integration script
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
